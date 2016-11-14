@@ -6,4 +6,4 @@
 
 Copyright 2016 cokuscz
 
-Licensed under the [Apache License2.0](https://github.com/cokuscz/fangDouYu/LICENSE)
+Licensed under the [Apache License2.0](https://github.com/cokuscz/fangDouYu/blob/master/LICENSE)
