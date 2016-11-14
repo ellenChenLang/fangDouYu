@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/room_img"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shape_rounded_rectangle"
+        />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/onlinetv"
+        android:textSize="9sp"
+        android:textColor="@color/colorwhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/home_reco_online_num_icon"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="3dp"
+        android:id="@+id/authortv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/colorwhite"
+        android:drawableLeft="@drawable/home_reco_host_name_icon"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/room_img"
+        android:id="@+id/room_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorblack"
+        android:singleLine="true"
+        android:textSize="10sp"
+        />
+
+
+</RelativeLayout>

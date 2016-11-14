@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">仿斗鱼</string>
+    <string name="tab1_name">首页</string>
+    <string name="tab2_name">直播</string>
+    <string name="tab3_name">关注</string>
+    <string name="tab4_name">我的</string>
+
+    <string name="load_failed">加载失败</string>
+
+    <string name="msv_hint_retry">点击屏幕进行刷新</string>
+    <string name="msv_network_bad">网络错误, 请检查您的网络设置.</string>
+    <string name="msv_loading">正在加载...</string>
+    <string name="msv_empty">暂无数据</string>
+</resources>

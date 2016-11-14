@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:id="@+id/banner_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner_hot_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <com.cokus.fangdouyu.widget.viewpagerindicator.view.indicator.FixedIndicatorView
+            android:id="@+id/banner_hot_indicator"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/banner_head"
+        android:id="@+id/banner_head_recyclerview_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:background="@color/colorwhite"
+        android:scrollbars="none"
+        ></android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
